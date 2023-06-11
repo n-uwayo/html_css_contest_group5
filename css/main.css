@@ -348,3 +348,123 @@ p {
     justify-content: space-between;
 
 }
+
+footer {
+    width: 100%;
+    background: #212727;
+    padding: 20px;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-section-about {
+    flex: 1;
+    /* margin-right: 30px; */
+}
+
+.footer-section-services {
+    flex: 1;
+    /* margin-right: 30px; */
+}
+
+.footer-section-contact {
+    flex: 1;
+}
+
+.footer-section-contact ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section-contact a {
+    color: #fff;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #bbb;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.social-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.services {
+    display: flex;
+    gap: 2rem;
+    /* flex-direction: column; */
+}
+
+.social-links img {
+    margin-top: 2px;
+    width: 15px;
+    height: 15px;
+    color: blue;
+}
+
+section h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    margin-left: 25%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group textarea {
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 100px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.social-links label {
+    padding-left: 1rem;
+}
